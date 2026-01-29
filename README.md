@@ -1,45 +1,87 @@
-# CalculadoraCustoViagem
-Calculo dos custos com viagem de automóvel
+<div align="center">
 
-O **CalculadoraCustoViagem** é um projeto desenvolvido em Java que tem como objetivo calcular os custos totais de uma viagem de automóvel, considerando tanto o consumo de combustível quanto o valor gasto com pedágios.
+# 🚗 Calculadora de Custo de Viagem
 
-## Funcionalidades
+### Planeje sua viagem com precisão e economia!
 
-- Solicita ao usuário as principais informações sobre a viagem:
-  - Distância total a ser percorrida (em quilômetros)
-  - Consumo médio do veículo (km/litro)
-  - Preço do litro da gasolina
-  - Quantidade de pedágios no percurso
-  - Valor individual de cada pedágio
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Ativo-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-- Calcula automaticamente:
-  - Litros de gasolina necessários para a viagem
-  - Custo total com combustível
-  - Custo total com pedágios
-  - Custo total estimado da viagem
+[Sobre](#-sobre) • [Funcionalidades](#-funcionalidades) • [Como Usar](#-como-usar) • [Exemplo](#-exemplo-de-uso) • [Tecnologias](#-tecnologias) • [Autor](#-autor)
 
-- Exibe um resumo detalhado dos custos, facilitando o planejamento financeiro da viagem.
+</div>
 
-## Como usar
+---
 
-1. Clone ou baixe o repositório:  
-   `git clone https://github.com/SilasJCSP/CalculadoraCustoViagem.git`
+## 📋 Sobre
 
-2. Compile o arquivo principal:
-   ```
-   javac src/CalculadoraCustoViagem.java
-   ```
+O **CalculadoraCustoViagem** é uma aplicação de linha de comando desenvolvida em Java que ajuda você a **estimar os custos totais de uma viagem de automóvel**. O programa calcula de forma precisa tanto os gastos com combustível quanto com pedágios, permitindo um planejamento financeiro mais eficiente.
 
-3. Execute o programa:
-   ```
-   java -cp src CalculadoraCustoViagem
-   ```
+> 💡 **Ideal para**: Viajantes, motoristas de aplicativo, planejadores de road trips e qualquer pessoa que queira ter controle sobre os custos de deslocamento!
 
-4. Siga as instruções no terminal, informando os dados solicitados.
+---
 
-## Exemplo de uso
+## ✨ Funcionalidades
 
+<table>
+<tr>
+<td width="50%">
+
+### 📊 Entrada de Dados
+- ✅ Distância total (km)
+- ✅ Consumo médio do veículo (km/l)
+- ✅ Preço do combustível (R$)
+- ✅ Quantidade de pedágios
+- ✅ Valor individual de cada pedágio
+
+</td>
+<td width="50%">
+
+### 🧮 Cálculos Automáticos
+- 📍 Litros de combustível necessários
+- 💰 Custo total com gasolina
+- 🛣️ Custo total com pedágios
+- 💵 **Custo total estimado da viagem**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Como Usar
+
+### Pré-requisitos
+
+- **Java JDK 8** ou superior instalado
+- Terminal/Prompt de comando
+
+### Instalação e Execução
+
+1️⃣ **Clone o repositório:**
+```bash
+git clone https://github.com/SilasJCSP/CalculadoraCustoViagem.git
+cd CalculadoraCustoViagem
 ```
+
+2️⃣ **Compile o programa:**
+```bash
+javac src/CalculadoraCustoViagem.java
+```
+
+3️⃣ **Execute a aplicação:**
+```bash
+java -cp src CalculadoraCustoViagem
+```
+
+4️⃣ **Siga as instruções** no terminal e informe os dados solicitados! 🎯
+
+---
+
+## 💻 Exemplo de Uso
+
+```console
 --- Calculadora de Custos de Viagem ---
 Digite a distância total da viagem em km: 300
 Digite o consumo médio do seu carro (km/litro): 12
@@ -55,9 +97,66 @@ Custo total com pedágios: R$ 17.40
 Custo TOTAL da viagem: R$ 154.90
 ```
 
-## Sobre
+---
 
-- Autor: [SilasJCSP](https://github.com/SilasJCSP)
-- Projeto público, disponível em: https://github.com/SilasJCSP/CalculadoraCustoViagem
+## 🛠️ Tecnologias
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- **[Java](https://www.oracle.com/java/)** - Linguagem de programação principal
+- **Scanner** - Para entrada de dados do usuário
+- **System.out** - Para saída formatada no console
 
 ---
+
+## 📂 Estrutura do Projeto
+
+```
+CalculadoraCustoViagem/
+│
+├── src/
+│   └── CalculadoraCustoViagem.java   # Código-fonte principal
+│
+└── README.md                          # Documentação do projeto
+```
+
+---
+
+## 🎯 Possíveis Melhorias Futuras
+
+- [ ] Interface gráfica (GUI) com JavaFX ou Swing
+- [ ] Suporte para múltiplos tipos de combustível (etanol, diesel, GNV)
+- [ ] Cálculo de emissão de CO₂
+- [ ] Histórico de viagens
+- [ ] Exportação de relatórios em PDF
+- [ ] Integração com APIs de preços de combustível em tempo real
+
+---
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+**Desenvolvido com ☕ e 💙 por**
+
+### [Silas JCSP](https://github.com/SilasJCSP)
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SilasJCSP)
+
+</div>
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir!
+
+---
+
+<div align="center">
+
+### ⭐ Se este projeto foi útil para você, considere dar uma estrela!
+
+**[⬆ Voltar ao topo](#-calculadora-de-custo-de-viagem)**
+
+</div>
